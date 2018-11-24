@@ -10,7 +10,7 @@ public class Randomizer {
     private double m_Uniform = 5;
     private double cko_Uniform = 0.5;
 
-    private final int n = 10;
+    private final int n = 20;
 
     public double getKcu(){
         return r.nextDouble();

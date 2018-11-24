@@ -13,6 +13,7 @@ public class Main {
         System.out.println("Приём заявок завершён");
         double remaining = service.serviceRemaining();
         System.out.printf("Оставшиеся клиенты обслужены. Потребовалось %4.2f минут\n", remaining);
-
+        System.out.println("Среднее время ожидания = " + service.averageRequestWait());
+        System.out.println("Среднее время простоя = " + service.averageServiceWait());
     }
 }
